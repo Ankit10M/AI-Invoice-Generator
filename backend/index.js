@@ -13,7 +13,7 @@ const port = 4002
 
 // Middleware
 app.use(cors({
-    origin: 'https://ai-invoice-generator-252g.onrender.com/',
+    origin: 'https://ai-invoice-generator-252g.onrender.com',
     credentials: true
 }))
 app.use(express.json({ limit: '20mb' }))
