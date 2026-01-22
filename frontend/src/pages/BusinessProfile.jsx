@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { businessProfileStyles, iconColors, customStyles } from '../assets/dummyStyles'
 import { useAuth, useUser } from '@clerk/clerk-react'
 
-const API_BASE = 'http://localhost:4002'
+const API_BASE = 'https://ai-invoice-generator-backend-e1zk.onrender.com'
 
 const UploadIcon = ({ className = "w-5 h-5" }) => (
     <svg

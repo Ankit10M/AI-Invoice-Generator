@@ -3,7 +3,7 @@ import BusinessProfile from '../models/businessModel.js'
 
 
 
-const API_BASE = 'http://localhost:4002'
+const API_BASE = 'https://ai-invoice-generator-backend-e1zk.onrender.com'
 
 // file to url
 

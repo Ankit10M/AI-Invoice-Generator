@@ -5,7 +5,7 @@ import { useAuth } from '@clerk/clerk-react';
 import KpiCard from '../components/KpiCard';
 import StatusBadge from '../components/StatusBadge';
 
-const API_BASE = 'http://localhost:4002'
+const API_BASE = 'https://ai-invoice-generator-backend-e1zk.onrender.com'
 
 function normalizeClient(raw) {
   if (!raw) return { name: "", email: "", address: "", phone: "" };
